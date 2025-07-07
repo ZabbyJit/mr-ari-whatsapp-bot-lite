@@ -14,9 +14,6 @@ client.on('qr', (qr) => {
   console.log(qr); // 
   qrcode.generate(qr, { small: true }); // 
 });
-
-});
-
 client.on('ready', () => {
     console.log('✅ Mr. Ari is now online!');
 });
