@@ -1,13 +1,14 @@
 {
   "name": "mr-ari-whatsapp-bot-lite",
   "version": "1.0.0",
-  "description": "Lite version of Mr. Ari bot",
+  "description": "Lightweight WhatsApp bot using whatsapp-web.js",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "whatsapp-web.js": "^1.22.1",
+    "whatsapp-web.js": "^1.18.4",
     "qrcode-terminal": "^0.12.0"
   }
 }
+
