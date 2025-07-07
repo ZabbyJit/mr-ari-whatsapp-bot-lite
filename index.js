@@ -9,9 +9,12 @@ const client = new Client({
     }
 });
 
-client.on('qr', qr => {
-    qrcode.generate(qr, { small: true });
-    console.log('📲 Scan the QR code to login.');
+client.on('qr', (qr) => {
+  console.log("📱 Scan this QR (raw):");
+  console.log(qr); // 
+  qrcode.generate(qr, { small: true }); // 
+});
+
 });
 
 client.on('ready', () => {
